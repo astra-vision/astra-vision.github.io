@@ -14,3 +14,5 @@ git commit -am "Static site deploy"
 git push github gh-pages --force
 cd ..
 rm -rf .deploy
+
+echo Website should be deployed: https://astra-vision.github.io/
