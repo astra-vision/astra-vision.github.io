@@ -1,0 +1,76 @@
+"de Charette":
+    firstname: Raoul
+    url: https://team.inria.fr/rits/membres/raoul-de-charette/
+    profilepic: raoul_de-charette.png
+    position: researcher
+    bib_firstname: ["Raoul", "R.", "Raoul de Charette"]
+
+"Marlet":
+    firstname: Renaud
+    url: http://imagine.enpc.fr/~marletr/
+    position: researcher
+    profilepic: renaud_marlet.jpg
+    bib_firstname: ["Renaud", "R."]
+
+"Lopes":
+    firstname: Ivan
+    url: https://wonjunior.github.io/
+    profilepic: ivan_lopes.jpeg
+    position: phd
+    bib_firstname: ["Ivan", "I."]
+
+"Cao":
+    firstname: Anh-Quan
+    url: https://anhquancao.github.io/
+    profilepic: anhquan_cao.png
+    position: phd
+    bib_firstname: ["Quan", "Q.", "Anh-Quan", "A-Q."]
+
+"Pizzati":
+    firstname: Fabio
+    url: https://fabvio.github.io/
+    profilepic: fabio_pizzati.png
+    position: phd
+    bib_firstname: ["Fabio", "F."]
+
+"Fahes":
+    firstname: Mohammad
+    url: https://mfahes.github.io/
+    profilepic: mohammad_fahes.jpeg
+    position: phd
+    bib_firstname: ["Mohammad", "M."]
+
+"Boulch":
+    firstname: Alexandre
+    url: https://boulch.eu/
+    profilepic: alexandre_boulch.png
+    position: researcher
+    bib_firstname: ["Alexandre", "Alex", "A."]
+
+"Puy":
+    firstname: Gilles
+    url: https://sites.google.com/site/puygilles/
+    profilepic: gilles_puy.jpg
+    position: researcher
+    bib_firstname: ["Gilles", "G."]
+
+"Bursuc":
+    firstname: Andrei
+    url: https://abursuc.github.io/
+    profilepic: andrei_bursuc.jpg
+    position: researcher
+    bib_firstname: ["Andrei", "A."]
+
+"Pérez":
+    firstname: Patrick
+    url: https://ptrckprz.github.io/
+    profilepic: patrick_perez.jpg
+    position: researcher
+    bib_firstname: ["Patrick", "P."]
+
+"Vu":
+    firstname: Tuan-Hung
+    url: https://tuanhungvu.github.io/
+    profilepic: tuan-hung_vu.jpg
+    position: researcher
+    bib_firstname: ["Tuan-Hung", "Tuan Hung", "T-H."]
