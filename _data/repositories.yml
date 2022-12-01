@@ -1,27 +1,27 @@
 github_users:
-  # - cv-rits
+  # - astra-vision
 
 github_repos:
   - valeoai/SLidR
   - valeoai/xmuda_journal
-  - cv-rits/COARSE3D
-  - cv-rits/DenseMTL
+  - astra-vision/COARSE3D
+  - astra-vision/DenseMTL
   - valeoai/NeeDrop
   - valeoai/SemanticPalette
-  - cv-rits/MonoScene
+  - astra-vision/MonoScene
   - valeoai/PCAM
-  - cv-rits/ManiFest
+  - astra-vision/ManiFest
   - valeoai/xmuda
   - valeoai/ConfidNet
-  - cv-rits/CoMoGAN
+  - astra-vision/CoMoGAN
   - valeoai/zs3
-  - cv-rits/LMSCNet
+  - astra-vision/LMSCNet
   - valeoai/dada
   - valeoai/MTAF
-  - cv-rits/rain-rendering
+  - astra-vision/rain-rendering
   - valeoai/ADVENT
   - valeoai/LOST
-  - cv-rits/weather-particle-simulator
+  - astra-vision/weather-particle-simulator
   - valeoai/FKAConv
   - lvsn/rgbde_tracking
   - valeoai/FLOT
