@@ -2,6 +2,8 @@ github_users:
   # - astra-vision
 
 github_repos:
+  - astra-vision/scenerf
+  - astra-vision/PODA
   - valeoai/SLidR
   - valeoai/xmuda_journal
   - astra-vision/COARSE3D

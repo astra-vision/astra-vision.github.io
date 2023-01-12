@@ -7,6 +7,8 @@ nav: true
 nav_order: 3
 ---
 
+Official github group: [https://github.com/astra-vision/](https://github.com/astra-vision/)
+
 {% if site.data.repositories.github_users %}
 ## GitHub users
 
