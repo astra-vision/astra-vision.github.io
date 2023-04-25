@@ -27,6 +27,9 @@ layout: default
               path=profile_image_path 
               class=profile_image_class
               alt=page.profile.image -%}
+              {%- if page.profile.image_date %}
+                <div class="profile imgdate">{{page.profile.image_date}}</div>
+              {%- endif %}
             {% endif -%}
           </div>
           {%- endif %}

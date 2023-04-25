@@ -14,7 +14,12 @@
   {% endfor %}
   <div class="reflection-content"><img class="member-img-light w-100" alt="{{ full_name }}" src="{{ member[1].profilepic | prepend: '/assets/img/team/' | relative_url }}"></div>
 </div>
-  {{ full_name }}</a><br>{{member[1].position}}
+  {{ full_name }}</a><br>
+  {{member[1].position}}
+  {% if member[1].alumni != true}
+  {% else %}
+    <br> Now at {{member[1].nowat}}
+  {% endif %}
 </div>
 
 <!-- 

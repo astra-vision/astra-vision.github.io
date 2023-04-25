@@ -10,10 +10,10 @@ nav_order: 5
 <!-- pages/jobs.md -->
 
 
-<strong>Spoiler alert: We're always looking for talented candidates, feel free to contact us beyond the scope of the opened positions. We strongly encourage women to apply too.</strong>
+<strong>Spoiler alert: We're always looking for talented candidates :thought_balloon:, feel free to contact Raoul de Charette beyond the scope of the opened positions. We strongly encourage women :woman: :muscle: to apply too.</strong>
 
 <hr style="margin-top: 5rem;">
-### PhD on "Conditioned 3D scene generation" (3 years)
+### ~~PhD on "Conditioned 3D scene generation"~~ (position filled)
 Deadline: <strong>applications processed as they come</strong>  
 Starting date: <strong>Spring 2023 or earlier</strong>  
 
@@ -29,7 +29,8 @@ We're looking for several interns, with good experience in computer vision / mac
 To apply, send a mail to 
 <a href="{{ site.data.team['de Charette'].url }}" target="_blank">Raoul de Charette</a>
  (<script>(function whatever(){var s='[AT]',n='raoul[DOT]de-charette',k='inria.fr',e=n+s+k,l='<a href="mailto:\{\{spam@uce.gov\}\}">\{\{spam@uce.gov\}\}</a>'.replace(/\{\{.+?(\}\})/g,e);document.write(l)})()</script>) 
-with resume, 1 or 2 referree names, and few lines to detail your interest. 
+with resume, 1 or 2 referree names, and few lines to detail your interest.<br>
+<u>2023-04-25 update:</u> We've filled some positions, but new ones may open for talented candidates.
 
 <hr style="margin-top: 5rem;">
 <hr>

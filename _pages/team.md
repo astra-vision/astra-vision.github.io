@@ -16,7 +16,19 @@ nav_order: 1
 
 <div class="team">
 {% for name in members_sorted %}
-  {% assign member = "" | split: ',' | push: name | push: site.data.team[name] %}
-  {% include team/member.html member=member %}
+  {% if site.data.team[name].alumni != true %}
+    {% assign member = "" | split: ',' | push: name | push: site.data.team[name] %}
+    {% include team/member.html member=member %}
+  {% endif %}
+{% endfor %}
+</div>
+
+<h2 class="alumni">Alumni</h2>
+<div class="team alumni">
+{% for name in members_sorted %}
+  {% if site.data.team[name].alumni == true %}
+    {% assign member = "" | split: ',' | push: name | push: site.data.team[name] %}
+    {% include team/member.html member=member %}
+  {% endif %}
 {% endfor %}
 </div>

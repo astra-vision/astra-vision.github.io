@@ -104,6 +104,16 @@ blockquote {
       margin: 0;
     }
   }
+  .imgdate {
+    margin-top: -3em;
+    height: 3em;
+    padding: 0.2em;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    width: 100%;
+    font-size: 12px;
+  }
 }
 .profile.align-center{
   margin-left: auto;
@@ -547,6 +557,16 @@ article>.team {
         }
       }
     }
+  }
+}
+article>h2.alumni {
+  margin-top: 5em;
+}
+article>.team.alumni {
+  justify-content: left;
+  .member {
+    width: 15%;
+    min-width: 60px;
   }
 }
 
