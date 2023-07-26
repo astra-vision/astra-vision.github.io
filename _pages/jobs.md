@@ -13,7 +13,7 @@ nav_order: 5
 <strong>Spoiler alert: We're always looking for talented candidates :thought_balloon:, feel free to contact Raoul de Charette beyond the scope of the opened positions. We strongly encourage women :woman: :muscle: to apply too.</strong>
 
 <hr style="margin-top: 5rem;">
-### ~~PhD on "Conditioned 3D scene generation"~~ (position filled)
+### ~~PhD on "Conditioned 3D scene generation"~~
 Deadline: <strong>applications processed as they come</strong>  
 Starting date: <strong>Spring 2023 or earlier</strong>  
 
@@ -38,7 +38,7 @@ with resume, 1 or 2 referree names, and few lines to detail your interest.<br>
 <strong>What and Where ?</strong>  
 
 We're located in the very center of Paris (France), exactly <a href="https://goo.gl/maps/3TAhg2y5qPE7BLe39" target="_blank">here</a>, close to various metros / buses / trains / bikes and within walking distance to most parisian spots. 
-Our group is multicultural. We work hard but in a cosy and friendly atmosphere, with regular group readings, seminars, etc.
+Our group is multicultural. We work in a friendly atmosphere, with regular group readings, seminars, etc.
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/jobs/inria.jpg" title="" class="img-fluid rounded z-depth-1" %}
