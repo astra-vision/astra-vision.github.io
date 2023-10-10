@@ -53,6 +53,6 @@ Our group is multicultural. We work in a friendly atmosphere, with regular group
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/jobs/group-seminar.jpg" title="" class="img-fluid rounded z-depth-1" %}
-        {% include figure.html path="assets/img/jobs/paris-bastille.jpg" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/astravision-2022_crop.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

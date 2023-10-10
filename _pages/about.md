@@ -6,8 +6,9 @@ subtitle: Computer vision group of Astra Team, <a href='https://www.inria.fr/fr/
 
 description: <strong>We study 2D vision and 3D perception for robust scene understanding.</strong> Our research focuses on relaxing the use of abundant data and supervision, stepping towards weak-/un-supervised vision algorithms, while providing models that are more interpretable. We primarily address autonomous driving but our research expands to a variety of indoor and outdoor applications. 
 profile:
-  image: group_picture-crop.jpg
-  image_date: Sep. 2022 # Date of the picture
+  # image: astravision-2022_crop.jpg
+  image: astravision-2023_700p.jpg
+  image_date: Oct. 2023 # Date of the picture
   image_circular: false # crops the image to make it circular
   address: >
     <p>Inria de Paris</p>

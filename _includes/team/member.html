@@ -6,7 +6,7 @@
   {%- assign axes = axes | append: " " | append: "axis-" | append: axis -%}
 {%- endfor -%}
 
-<div class="member text-center {{member[1].position}} {{axes}}">
+<!-- <div class="member text-center {{member[1].position}} {{axes}}">
 <a href="{{ member[1].url }}" target="_blank">
 <div class="reflection-container">
   {% for i in (1..100) %}
@@ -20,11 +20,9 @@
   {% else %}
     <br> Now at {{member[1].nowat}}
   {% endif %}
-</div>
+</div> -->
 
-<!-- 
 <div class="member text-center {{member[1].position}}">
   <a href="{{ member[1].url }}" target="_blank"><img class="member-img-light w-100" alt="{{ full_name }}" src="{{ member[1].profilepic | prepend: '/assets/img/team/' | relative_url }}">
   {{ full_name }}</a><br>{{member[1].position}}
 </div>
- -->
