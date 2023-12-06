@@ -2,6 +2,9 @@ github_users:
   # - astra-vision
 
 github_repos:
+  - astra-vision/MaterialPalette
+  - astra-vision/PaSCo
+  - astra-vision/FAMix
   - astra-vision/GuidedDisent
   - astra-vision/scenerf
   - astra-vision/PODA
