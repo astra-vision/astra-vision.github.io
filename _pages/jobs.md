@@ -13,6 +13,26 @@ nav_order: 5
 <strong>Spoiler alert: We're always looking for talented candidates :thought_balloon:, feel free to contact Raoul de Charette beyond the scope of the opened positions. We strongly encourage women :woman: :muscle: to apply too.</strong>
 
 <hr style="margin-top: 5rem;">
+### Multiple internships (6 months)
+Deadline: <strong>applications processed as they come</strong>  
+Starting date: <strong>Early/Mid 2024</strong>  
+
+We're looking for roughly 4 interns highly motivated, with experience in computer vision / machine learning (can be student projects).
+
+These internships are already opened (other will be advertised soon):
+
+* Gaussian Splatting for Urban scenes, Valeo.ai/Inria  (<a href="{{ '/assets/pdf/2024_astra_inria_valeoai_scene_representation.pdf' | relative_url }}" target="_blank">Internship details</a>)
+* Radiance Fields for extreme physical simulation, Inria/Valeo.ai
+* Other topics can be investigated such as: language-driven models, diffusion, physics-driven learning, etc. 
+
+
+
+To apply, please follow internship pdf details (if provided). If not provided, send a mail to 
+<a href="{{ site.data.team['de Charette'].url }}" target="_blank">Raoul de Charette</a>
+ (<script>(function whatever(){var s='[AT]',n='raoul[DOT]de-charette',k='inria.fr',e=n+s+k,l='<a href="mailto:\{\{spam@uce.gov\}\}">\{\{spam@uce.gov\}\}</a>'.replace(/\{\{.+?(\}\})/g,e);document.write(l)})()</script>) 
+with resume, 2 referrees, and few lines to detail your interest.<br>
+
+<hr style="margin-top: 5rem;">
 ### ~~PhD on "Conditioned 3D scene generation"~~
 Deadline: <strong>applications processed as they come</strong>  
 Starting date: <strong>Spring 2023 or earlier</strong>  
@@ -21,7 +41,7 @@ In this Valeo.ai/Inria PhD thesis, we wish to investigate how to condition the g
  <a href="{{ 'assets/pdf/valeo-inria_phd-3dgen.pdf' | relative_url }}" target="_blank">More job details</a>.
 
 <hr style="margin-top: 5rem;">
-### Multiple internships (6 months)
+### ~~Multiple internships (6 months)~~
 Deadline: <strong>applications processed as they come</strong>  
 Starting date: <strong>Early/Mid 2023</strong>  
 
