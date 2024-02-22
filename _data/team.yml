@@ -12,6 +12,16 @@
     profilepic: renaud_marlet.jpg
     bib_firstname: ["Renaud", "R."]
 
+"Pérez":
+    firstname: Patrick
+    url: https://ptrckprz.github.io/
+    profilepic: patrick_perez.jpg
+    position: Researcher
+    bib_firstname: ["Patrick", "P."]
+    alumni: true
+    alumni_date: 2023/12/08
+    alumni_now: CEO of <a href="https://www.kyutai.org" target="_blank">Kyutai</a>
+
 "Lopes":
     firstname: Ivan
     url: https://wonjunior.github.io/
@@ -25,15 +35,6 @@
     profilepic: anhquan_cao.png
     position: PhD student
     bib_firstname: ["Quan", "Q.", "Anh-Quan", "A-Q."]
-
-"Pizzati":
-    firstname: Fabio
-    url: https://fabvio.github.io/
-    profilepic: fabio_pizzati.png
-    position: PhD student
-    bib_firstname: ["Fabio", "F."]
-    alumni: true
-    nowat: <a href="https://torrvision.com/">Oxford TVG</a>
 
 "Fahes":
     firstname: Mohammad
@@ -63,13 +64,6 @@
     position: Researcher
     bib_firstname: ["Andrei", "A."]
 
-"Pérez":
-    firstname: Patrick
-    url: https://ptrckprz.github.io/
-    profilepic: patrick_perez.jpg
-    position: Researcher
-    bib_firstname: ["Patrick", "P."]
-
 "Vu":
     firstname: Tuan-Hung
     url: https://tuanhungvu.github.io/
@@ -83,6 +77,8 @@
     profilepic: tankhiem_huynh.jpg
     position: Intern
     bib_firstname: ["Tan Khiem", "Khiem", "T-K."]
+    alumni: true
+    alumni_date: 2023/10/01
 
 "Ben Salem":
     firstname: Souhaiel
@@ -90,6 +86,18 @@
     profilepic: souhaiel_bensalem.jpg
     position: Intern
     bib_firstname: ["Souhaiel", "S."]
+    alumni: true
+    alumni_date: 2023/10/01
+
+"Pizzati":
+    firstname: Fabio
+    url: https://fabvio.github.io/
+    profilepic: fabio_pizzati.png
+    position: PhD student
+    bib_firstname: ["Fabio", "F."]
+    alumni: true
+    alumni_now: PostDoc at <a href="https://torrvision.com/">Oxford TVG</a>
+    alumni_date: 2023/03/01
 
 "Martyniuk":
     firstname: Tetiana
@@ -97,3 +105,17 @@
     profilepic: tetiana_martyniuk.jpg
     position: PhD student
     bib_firstname: ["Tetiana", "T."]
+
+"Weinreich":
+    firstname: Clément
+    url: https://clement-w.github.io/
+    profilepic: clement_weinreich.jpeg
+    position: Intern
+    bib_firstname: ["Clément", "Clement", "C"]
+
+"Marengo":
+    firstname: Matteo
+    url: https://www.linkedin.com/in/matteolmarengo/
+    profilepic: matteo_marengo.jpeg
+    position: Intern
+    bib_firstname: ["Matteo", "M."]

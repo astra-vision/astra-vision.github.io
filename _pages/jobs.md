@@ -21,8 +21,8 @@ We're looking for roughly 4 interns highly motivated, with experience in compute
 
 These internships are already opened (other will be advertised soon):
 
-* Gaussian Splatting for Urban scenes, Valeo.ai/Inria  (<a href="{{ '/assets/pdf/2024_astra_inria_valeoai_scene_representation.pdf' | relative_url }}" target="_blank">Internship details</a>)
-* Realistic Extreme Conditions Augmentations with Gaussian Splatting, Inria/Valeo.ai (<a href="https://drive.google.com/file/d/1OuFW7yvbC5v7QaXCgaPQbI8EeMXV_kND/view?usp=sharing" target="_blank">Internship details</a>)
+* ~~Gaussian Splatting for Urban scenes, Valeo.ai/Inria~~  (<a href="{{ '/assets/pdf/2024_astra_inria_valeoai_scene_representation.pdf' | relative_url }}" target="_blank">Internship details</a>)
+* ~~Realistic Extreme Conditions Augmentations with Gaussian Splatting, Inria/Valeo.ai~~ (<a href="https://drive.google.com/file/d/1OuFW7yvbC5v7QaXCgaPQbI8EeMXV_kND/view?usp=sharing" target="_blank">Internship details</a>)
 * Other topics can be investigated such as: language-driven models, diffusion, physics-driven learning, etc. 
 
 
