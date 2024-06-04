@@ -119,3 +119,10 @@
     profilepic: matteo_marengo.jpeg
     position: Intern
     bib_firstname: ["Matteo", "M."]
+
+"Paul":
+    firstname: Soumava
+    url: https://mvp18.github.io/
+    profilepic: soumava_paul.jpg
+    position: Intern
+    bib_firstname: ["Soumava", "S."]
