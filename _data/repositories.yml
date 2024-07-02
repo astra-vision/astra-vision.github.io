@@ -2,6 +2,7 @@ github_users:
   # - astra-vision
 
 github_repos:
+  - weihaox/UMBRAE
   - astra-vision/MaterialPalette
   - astra-vision/PaSCo
   - astra-vision/FAMix
