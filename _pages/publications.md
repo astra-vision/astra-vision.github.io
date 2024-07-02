@@ -10,22 +10,10 @@ nav_order: 2
 <div class="publications">
 
 <!-- <h2 class="year">2023</h2> -->
-{% bibliography -f papers_2023 %}
-
-<!-- <h2 class="year">2022</h2> -->
-{% bibliography -f papers_2022 %}
+{% bibliography -f papers %}
 
 <!-- <h2 class="year">2021</h2> -->
 <em style="margin-bottom: 1em; display: block; max-width: 80%;">Some other relevant team members' works prior to the Astra-vision group creation.</em>
-{% bibliography -f papers_2021 %}
-
-<!-- <h2 class="year">2020</h2> -->
-{% bibliography -f papers_2020 %}
-
-<!-- <h2 class="year">2019</h2> -->
-{% bibliography -f papers_2019 %}
-
-<!-- <h2 class="year">2018</h2> -->
-{% bibliography -f papers_2018 %}
+{% bibliography -f papers_before %}
 
 </div>
