@@ -27,9 +27,14 @@
   {% if member[1].alumni != true %}
     {{ full_name }}</a><br>{{member[1].position}}
   {% else %}
-    {{ full_name }}</a><br>{{member[1].position}}
-    {% if member[1].alumni_now != "" and member[1].alumni_now != nil %}
-      <br> <span class="nowat">(now {{member[1].alumni_now}})</span>
+    {{ full_name }}</a><br>
+    {% if member[1].alumni_now != "" %}
+      {{member[1].position}}
+      {% if member[1].alumni_now != nil %}
+        <br> <span class="nowat">(now {{member[1].alumni_now}})</span>
+      {% endif %}
+    {% else %}
+      {{member[1].position}}
     {% endif %}
   {% endif %}
 </div>

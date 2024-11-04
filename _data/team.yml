@@ -96,7 +96,7 @@
     position: PhD student
     bib_firstname: ["Fabio", "F."]
     alumni: true
-    alumni_now: PostDoc at <a href="https://torrvision.com/">Oxford TVG</a>
+    alumni_now: PostDoc at <a href="https://mbzuai.ac.ae/">MBZUAI</a>
     alumni_date: 2023/03/01
 
 "Martyniuk":
@@ -110,15 +110,19 @@
     firstname: Clément
     url: https://clement-w.github.io/
     profilepic: clement_weinreich.jpeg
+    alumni: true
     position: Intern
     bib_firstname: ["Clément", "Clement", "C"]
+    alumni_now: PhD at Institut Pasteur / Princeton University
 
 "Marengo":
     firstname: Matteo
     url: https://www.linkedin.com/in/matteolmarengo/
     profilepic: matteo_marengo.jpeg
+    alumni: true
     position: Intern
     bib_firstname: ["Matteo", "M."]
+    alumni_now: Research intern at <a href="https://hms.harvard.edu/" target="_blank">Harvard</a>
 
 "Paul":
     firstname: Soumava
@@ -126,3 +130,18 @@
     profilepic: soumava_paul.jpg
     position: Intern
     bib_firstname: ["Soumava", "S."]
+
+"Benigmim":
+    firstname: Yasser
+    url: https://scholar.google.com/citations?user=OO9ToJgAAAAJ
+    profilepic: benigmim_yasser.jpg
+    position: PhD Visit
+    bib_firstname: ["Yasser", "Y."]
+
+"Xia":
+    firstname: Weihao
+    url: https://weihaox.github.io/
+    profilepic: weihao_xia.png
+    position: PhD Visit
+    alumni: true
+    bib_firstname: ["Weihao", "W."]
