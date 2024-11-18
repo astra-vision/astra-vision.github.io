@@ -2,6 +2,7 @@ github_users:
   # - astra-vision
 
 github_repos:
+  - astra-vision/BRDFTransform
   - astra-vision/ProLIP
   - astra-vision/LatteCLIP
   - weihaox/UMBRAE
