@@ -35,6 +35,9 @@
     profilepic: anhquan_cao.png
     position: PhD student
     bib_firstname: ["Quan", "Q.", "Anh-Quan", "A-Q."]
+    alumni: true
+    alumni_date: 2025/01/01
+    alumni_now: research scientist at <a href="https://valeoai.github.io/" target="_blank">Valeo.ai</a>
 
 "Fahes":
     firstname: Mohammad
@@ -145,3 +148,17 @@
     position: PhD Visit
     alumni: true
     bib_firstname: ["Weihao", "W."]
+
+"Balde":
+    firstname: Fatima
+    url: https://www.linkedin.com/in/fatima-balde-146312220/
+    profilepic: fatima_balde.jpeg
+    position: Intern
+    bib_firstname: ["Fatima", "F."]
+
+"Seele":
+    firstname: Jonathan
+    url: https://www.linkedin.com/in/jonathan-seele-913691253/
+    profilepic: unknown.jpg
+    position: Intern
+    bib_firstname: ["Jonathan", "J."]
