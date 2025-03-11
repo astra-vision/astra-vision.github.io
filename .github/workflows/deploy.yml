@@ -15,19 +15,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0.2'
+        ruby-version: '3.0'
         bundler-cache: true
     - name: Install deps
       run: |
+        bundle install
         npm install -g mermaid.cli
     - name: Setup deploy options
       id: setup
       run: |
-        bundle install
         git config --global user.name "GitHub Action"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         if [[ ${GITHUB_REF} = refs/pull/*/merge ]]; then # pull request
