@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
-    gem 'uri', '>= 0.10.1'
     gem 'wdm', '>= 0.1.0' if Gem.win_platform?
     gem 'jekyll'
     gem 'jekyll-archives'
