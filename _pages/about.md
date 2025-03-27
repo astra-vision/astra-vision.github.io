@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Computer vision group of Astra Team, <a href='https://www.inria.fr/fr/centre-inria-de-paris'>Inria Paris</a>
+subtitle: Computer vision group of <a href='https://astra-team.github.io'>Astra Team</a>, <a href='https://www.inria.fr/fr/centre-inria-de-paris'>Inria Paris</a>
 
 description: <strong>We study 2D vision and 3D perception for robust scene understanding.</strong> Our research focuses on relaxing the use of abundant data and supervision, stepping towards weak-/un-supervised vision algorithms, while providing models that are more interpretable. We primarily address autonomous driving but our research expands to a variety of indoor and outdoor applications. 
 profile:
