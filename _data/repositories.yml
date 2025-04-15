@@ -2,6 +2,7 @@ github_users:
   # - astra-vision
 
 github_repos:
+  - yasserben/FLOSS
   - astra-vision/BRDFTransform
   - astra-vision/ProLIP
   - astra-vision/LatteCLIP
