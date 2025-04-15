@@ -13,9 +13,19 @@ nav_order: 5
 <strong>Spoiler alert: We're always looking for talented candidates :thought_balloon:, feel free to contact Raoul de Charette beyond the scope of the opened positions. We strongly encourage women :woman: :muscle: to apply too.</strong>
 
 <hr style="margin-top: 5rem;">
+### 2025 - PhD thesis on "Understanding and Improving Physics Capabilities of Vision Foundation Models" (3 years)
+Deadline: <strong>May 20th 2025</strong>  
+Starting date: September-November 2025  
+
+In the context of [Paris School of AI (PR[AI]RIE-PSAI)](https://prairie-institute.fr/), we open a PhD thesis to study and improve the physics capabilities of Vision Foundation Models (VFMs). The candidate selection will follow a two stages process.
+
+Details and how to apply in the <a href="{{ 'assets/pdf/inria_prairie_phd-physics-vfm.pdf' | relative_url }}" target="_blank">PhD topic PDF</a>.<br>
+
+<hr style="margin-top: 5rem;">
+
 ### Multiple internships (6 months)
 Deadline: <strong>applications processed as they come</strong>  
-Starting date: <strong>Early/Mid 2024</strong>  
+Starting date: <strong>~~Early/Mid 2024~~</strong>  
 
 We're looking for roughly 4 interns highly motivated, with experience in computer vision / machine learning (can be student projects).
 
