@@ -13,7 +13,7 @@ nav_order: 5
 <strong>Spoiler alert: We're always looking for talented candidates :thought_balloon:, feel free to contact Raoul de Charette beyond the scope of the opened positions. We strongly encourage women :woman: :muscle: to apply too.</strong>
 
 <hr style="margin-top: 5rem;">
-### 2025 - PhD thesis on "Understanding and Improving Physics Capabilities of Vision Foundation Models" (3 years)
+### 2025 - PhD thesis on "Physics-Grounded Vision Foundation Models" (3 years)
 Deadline: <strong>May 20th 2025</strong>  
 Starting date: September-November 2025  
 
