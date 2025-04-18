@@ -22,6 +22,13 @@
         {%- endif -%}
         </div>
 
+        {%- if entry.pdf -%}
+          {% assign entry_pdf = entry.pdf %}
+        {%- elsif entry.url -%}
+          {% assign entry_pdf = entry.url %}
+        {%- endif -%}
+
+
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
         {% if entry.type == "thesis" -%}
@@ -31,17 +38,17 @@
           {%- if entry.project %}
             <a href="{{ entry.project }}" target="_blank">
           {%- else -%}
-            {%- if entry.pdf -%}
-              <a href="{{ entry.pdf }}" target="_blank">
+            {%- if entry_pdf -%}
+              <a href="{{ entry_pdf }}" target="_blank">
             {%- endif %}
           {%- endif %}
             {{entry.title}}
-          {%- if entry.project or entry.pdf %}
+          {%- if entry.project or entry_pdf %}
             </a>
           {%- endif %}
           </div>
           <div class="author">
-          {% assign author_array_size = entry.author_array | size %}
+          {% assign author_array_size = entry.author_array.size %}
 
           {% assign author_array_limit = author_array_size %}
           {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
@@ -110,8 +117,10 @@
               {% if author_member != nil %}
                 {% if forloop.index0 == 0 %}
                   {% assign teammember_url = author_member.url %}
+                  {%- break -%}
                 {% elsif forloop.index0 == 1 %}
                   {% assign coauthor_url = author_member.url %}
+                  {%- break -%}
                 {% endif %}
               {% endif %}
             {% endfor %}
@@ -120,15 +129,16 @@
               {%- if forloop.first == false -%},&nbsp;{%- endif -%}
               {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
             {%- endif -%}
-              {%- if teammember_url -%}
-                  <a href="{{teammember_url}}" class="team">{{author.first}} {{author_last_name}}</a>
+
+            {%- if teammember_url -%}
+                <a href="{{teammember_url}}" class="team">{{author.first}} {{author_last_name}}</a>
+            {%- else -%}
+              {%- if coauthor_url -%}
+                <a href="{{coauthor_url}}">{{author.first}} {{author_last_name}}</a>
               {%- else -%}
-                {%- if coauthor_url -%}
-                  <a href="{{coauthor_url}}">{{author.first}} {{author_last_name}}</a>
-                {%- else -%}
-                  {{author.first}} {{author_last_name}}
-                {%- endif -%}
+                {{author.first}} {{author_last_name}}
               {%- endif -%}
+            {%- endif -%}
           {%- endfor -%}
           {%- assign more_authors = author_array_size | minus: author_array_limit -%}
           
@@ -201,11 +211,11 @@
           {%- if entry.project %}
             <a href="{{ entry.project }}" class="btn btn-sm z-depth-0" role="button">Project page</a>
           {%- endif %}
-          {%- if entry.pdf %}
-            {% if entry.pdf contains '://' -%}
-            <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          {%- if entry_pdf %}
+            {% if entry_pdf contains '://' -%}
+            <a href="{{ entry_pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
             {%- else -%}
-            <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="{{ entry_pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.supp %}
