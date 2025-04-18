@@ -1,40 +1,40 @@
 {% assign member =  include.member %}
 
-{%- assign full_name = member[1].firstname | append: " " | append: member[0] -%}
+{%- assign full_name = member.firstname | append: " " | append: member.lastname -%}
 {%- assign axes = " " -%}
-{%- for axis in member[1].axes -%}
+{%- for axis in member.axes -%}
   {%- assign axes = axes | append: " " | append: "axis-" | append: axis -%}
 {%- endfor -%}
 
-<!-- <div class="member text-center {{member[1].position}} {{axes}}">
-<a href="{{ member[1].url }}" target="_blank">
+<!-- <div class="member text-center {{member.position}} {{axes}}">
+<a href="{{ member.url }}" target="_blank">
 <div class="reflection-container">
   {% for i in (1..100) %}
     <span class="reflection-grid-cell reflection-grid-cell-{{i}}"></span>
   {% endfor %}
-  <div class="reflection-content"><img class="member-img-light w-100" alt="{{ full_name }}" src="{{ member[1].profilepic | prepend: '/assets/img/team/' | relative_url }}"></div>
+  <div class="reflection-content"><img class="member-img-light w-100" alt="{{ full_name }}" src="{{ member.profilepic | prepend: '/assets/img/team/' | relative_url }}"></div>
 </div>
   {{ full_name }}</a><br>
-  {{member[1].position}}
-  {% if member[1].alumni != true}
+  {{member.position}}
+  {% if member.alumni != true}
   {% else %}
-    <br> Now at {{member[1].nowat}}
+    <br> Now at {{member.nowat}}
   {% endif %}
 </div> -->
 
-<div class="member text-center {{member[1].position}}">
-  <a href="{{ member[1].url }}" target="_blank"><img class="member-img-light w-100" alt="{{ full_name }}" src="{{ member[1].profilepic | prepend: '/assets/img/team/' | relative_url }}">
-  {% if member[1].alumni != true %}
-    {{ full_name }}</a><br>{{member[1].position}}
+<div class="member text-center {{member.position}}">
+  <a href="{{ member.url }}" target="_blank"><img class="member-img-light w-100" alt="{{ full_name }}" src="{{ member.profilepic | prepend: '/assets/img/team/' | relative_url }}">
+  {% if member.alumni != true %}
+    {{ full_name }}</a><br>{{member.position}}
   {% else %}
     {{ full_name }}</a><br>
-    {% if member[1].alumni_now != "" %}
-      {{member[1].position}}
-      {% if member[1].alumni_now != nil %}
-        <br> <span class="nowat">(now {{member[1].alumni_now}})</span>
+    {% if member.alumni_now != "" %}
+      {{member.position}}
+      {% if member.alumni_now != nil %}
+        <br> <span class="nowat">(now {{member.alumni_now}})</span>
       {% endif %}
     {% else %}
-      {{member[1].position}}
+      {{member.position}}
     {% endif %}
   {% endif %}
 </div>

@@ -8,19 +8,12 @@ nav_order: 1
 ---
 
 <!-- pages/team.md -->
-<!-- sort active members -->
-{% assign names_sorted = "" | split: ',' %}
-{% for member in site.data.team %}
-  {% if member[1].alumni != true %}
-    {% assign names_sorted = names_sorted | push: member[0] %}
-  {% endif %}
-{% endfor %}
-{% assign names_sorted = names_sorted | sort_natural %}
+{% assign members = site.data.team | where_exp:"item","item.alumni != true" | sort_natural: "lastname" %}
+{% assign alumni = site.data.team | where_exp:"item","item.alumni == true" | sort_natural: "lastname" %}
 
 <div class="team">
-{% for name in names_sorted %}
-  {% assign member = "" | split: ',' | push: name | push: site.data.team[name] %}
-  {% include team/member.html member=member %}
+{% for member in members %}
+    {% include team/member.html member=member %}
 {% endfor %}
 </div>
 
@@ -28,9 +21,7 @@ nav_order: 1
 <!-- could not manage to sort by alumni_date since Liquid does not allow modifying object w/o use of a plugin -->
 <h2 class="alumni">Alumni</h2>
 <div class="team alumni">
-{% for member in site.data.team %}
-  {% if member[1].alumni == true %}
+{% for member in alumni %}
     {% include team/member.html member=member %}
-  {% endif %}
 {% endfor %}
 </div>
