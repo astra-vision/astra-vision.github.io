@@ -64,6 +64,7 @@
             {%- endif -%}
 
             {%- assign teammember_url = nil -%}
+            {%- assign coauthor_url = nil -%}
             {% assign range_array = "0,1" | split: "," %}
             {% for item in range_array %}
               {% if forloop.index0 == 0 %}
