@@ -35,16 +35,10 @@
           {{reference}}
         {%- else %}
           <div class="title">
-          {%- if entry.project %}
-            <a href="{{ entry.project }}" target="_blank">
-          {%- else -%}
-            {%- if entry_pdf -%}
-              <a href="{{ entry_pdf }}" target="_blank">
-            {%- endif %}
-          {%- endif %}
+          {%- if entry_pdf %}
+            <a href="{{ entry_pdf }}" target="_blank">{{entry.title}}</a>
+          {%- else %}
             {{entry.title}}
-          {%- if entry.project or entry_pdf %}
-            </a>
           {%- endif %}
           </div>
           <div class="author">
