@@ -35,7 +35,9 @@
           {{reference}}
         {%- else %}
           <div class="title">
-          {%- if entry_pdf %}
+          {%- if entry.project %}
+            <a href="{{ entry.project }}" target="_blank">{{entry.title}}</a>
+          {%- elsif entry_pdf %}
             <a href="{{ entry_pdf }}" target="_blank">{{entry.title}}</a>
           {%- else %}
             {{entry.title}}
