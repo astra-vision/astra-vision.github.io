@@ -19,7 +19,7 @@ Starting date: Fall 2025
 
 In the context of [Paris School of AI (PR[AI]RIE-PSAI)](https://prairie-institute.fr/), we open a PhD thesis to study and improve the physics understanding of Vision Foundation Models (VFMs), co-advised by [Raoul de Charette](https://rdecharette.github.io/) and [Tuan-Hung Vu](https://tuanhungvu.github.io/).
 
-Please refer to the <a href="{{ 'assets/pdf/inria_prairie_phd-physics-vfm.pdf' | relative_url }}" target="_blank">PhD topic PDF</a> for details and mention on how to apply.<br>
+👉 Please refer to the <a href="{{ 'assets/pdf/inria_prairie_phd-physics-vfm.pdf' | relative_url }}" target="_blank">PhD topic PDF</a> for details and mention on how to apply.<br>
 The candidate selection will follow a two stages process.
 
 {% include figure.html path="assets/img/jobs/prairie-physics-vfm.png" title="" class="img-fluid rounded z-depth-1" width="75%" alt="PhD on Physics-Grounded Vision Foundation Models" %}
