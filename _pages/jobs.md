@@ -22,7 +22,7 @@ In the context of [Paris School of AI (PR[AI]RIE-PSAI)](https://prairie-institut
 👉 Please refer to the <a href="{{ 'assets/pdf/inria_prairie_phd-physics-vfm.pdf' | relative_url }}" target="_blank">PhD topic PDF</a> for details and mention on how to apply.<br>
 The candidate selection will follow a two stages process.
 
-{% include figure.html path="assets/img/jobs/prairie-physics-vfm.png" title="" class="img-fluid rounded z-depth-1" width="75%" alt="PhD on Physics-Grounded Vision Foundation Models" %}
+{% include figure.html path="assets/img/jobs/prairie-physics-vfm.png" title="" class="img-fluid rounded z-depth-1" width="90%" alt="PhD on Physics-Grounded Vision Foundation Models" %}
 
 
 <hr style="margin-top: 5rem;">
