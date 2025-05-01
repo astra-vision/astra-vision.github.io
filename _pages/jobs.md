@@ -14,8 +14,8 @@ nav_order: 5
 
 <hr style="margin-top: 5rem;">
 ### 2025 - PhD thesis on "Physics-Grounded Vision Foundation Models" (3 years)
-Deadline: <strong>May 20th 2025</strong>  
-Starting date: Fall 2025  
+⏳ Application deadline: <strong>May 20th 2025</strong>  
+🎬 Starting date: Fall 2025  
 
 In the context of [Paris School of AI (PR[AI]RIE-PSAI)](https://prairie-institute.fr/), we open a PhD thesis to study and improve the physics understanding of Vision Foundation Models (VFMs), co-advised by [Raoul de Charette](https://rdecharette.github.io/) and [Tuan-Hung Vu](https://tuanhungvu.github.io/).
 
