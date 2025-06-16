@@ -13,16 +13,13 @@ nav_order: 5
 <strong>Spoiler alert: We're always looking for talented candidates :thought_balloon:, feel free to contact Raoul de Charette beyond the scope of the opened positions. We strongly encourage women :woman: :muscle: to apply too.</strong>
 
 <hr style="margin-top: 5rem;">
-### 2025 - PhD thesis on "Physics-Grounded Vision Foundation Models" (3 years)
-⏳ Application deadline: <strong>May 20th 2025</strong>  
+### <span style="text-decoration: line-through;">PhD thesis on "Physics-Grounded Vision Foundation Models" (3 years)</span>
 🎬 Starting date: Fall 2025  
 
 In the context of [Paris School of AI (PR[AI]RIE-PSAI)](https://prairie-institute.fr/), we open a PhD thesis to study and improve the physics understanding of Vision Foundation Models (VFMs), co-advised by [Raoul de Charette](https://rdecharette.github.io/) and [Tuan-Hung Vu](https://tuanhungvu.github.io/).
 
-👉 Please refer to the <a href="{{ 'assets/pdf/inria_prairie_phd-physics-vfm.pdf' | relative_url }}" target="_blank">PhD topic PDF</a> for details and mention on how to apply.<br>
-The candidate selection will follow a two stages process.
+{% include figure.html path="assets/img/jobs/prairie-physics-vfm.png" title="" class="img-fluid rounded z-depth-1" width="75%" alt="PhD on Physics-Grounded Vision Foundation Models" %}
 
-{% include figure.html path="assets/img/jobs/prairie-physics-vfm.png" title="" class="img-fluid rounded z-depth-1" width="90%" alt="PhD on Physics-Grounded Vision Foundation Models" %}
 
 
 <hr style="margin-top: 5rem;">
