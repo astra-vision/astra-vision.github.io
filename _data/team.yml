@@ -140,6 +140,9 @@
     url: https://yasserben.github.io/
     profilepic: benigmim_yasser.jpg
     position: PhD Visit
+    alumni: true
+    alumni_date: 2025-03-01
+    alumni_now: "PhD at Polytechnique"
 
 -
     lastname: "Xia"
