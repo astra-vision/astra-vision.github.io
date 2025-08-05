@@ -45,6 +45,7 @@
     url: https://mfahes.github.io/
     profilepic: mohammad_fahes.jpeg
     position: PhD student
+    note: "co-supervised with Tuan-Hung Vu, Andrei Bursuc (Valeo.ai) and Patrick Pérez (Kyutai). <b>Intern at Google DeepMind.</b>"
 
 -
     lastname: "Boulch"
@@ -133,6 +134,9 @@
     url: https://mvp18.github.io/
     profilepic: soumava_paul.jpg
     position: Intern
+    alumni: true
+    alumni_date: 2024-12-01
+    alumni_now: "PhD at Johns Hopkins University"
 
 -
     lastname: "Benigmim"
@@ -151,13 +155,15 @@
     profilepic: weihao_xia.png
     position: PhD Visit
     alumni: true
+    alumni_now: "Research staff at University of Cambridge"
 
 -
     lastname: "Balde"
     firstname: Fatima
     url: https://www.linkedin.com/in/fatima-balde-146312220/
     profilepic: fatima_balde.jpeg
-    position: Intern
+    position: PhD student
+    note: "co-supervised with Alexandre Boulch (Valeo.ai)"
 
 -
     lastname: "Seele"
@@ -166,3 +172,5 @@
     profilepic: jonathan_seele.jpg
     position: Intern
     bib_firstname: ["Jonathan", "J."]
+    alumni: true
+    alumni_now: "at ETH Zurich"
