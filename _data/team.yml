@@ -1,4 +1,26 @@
 -
+    lastname: "Tragoudaras"
+    firstname: Antonios
+    url: https://antragoudaras.github.io
+    profilepic: antonios_tragoudaras.jpg
+    position: PhD student
+    note: "co-supervised with Tuan-Hung Vu, Andrei Bursuc (Valeo.ai)"
+
+-
+    lastname: "Cavada"
+    firstname: Sebastian
+    url: https://sebo-the-tramp.github.io/
+    profilepic: sebastian_cavada.png
+    position: Visit
+
+-
+    lastname: "Beche"
+    firstname: Radu
+    url: https://beche.ro
+    profilepic: radu_beche.png
+    position: PhD visit
+
+-
     lastname: "de Charette"
     firstname: Raoul
     url: https://rdecharette.github.io
@@ -28,6 +50,9 @@
     url: https://wonjunior.github.io/
     profilepic: ivan_lopes.jpeg
     position: PhD student
+    alumni: true
+    alumni_date: 2025/10/13
+    alumni_now: scientist at <a href="https://www.disneyresearch.com">Disney Research</a>
 
 -
     lastname: "Cao"
