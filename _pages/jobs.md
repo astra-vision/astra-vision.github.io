@@ -13,6 +13,17 @@ nav_order: 5
 <strong>Spoiler alert: We're always looking for talented candidates :thought_balloon:, feel free to contact Raoul de Charette beyond the scope of the opened positions. We strongly encourage women :woman: :muscle: to apply too.</strong>
 
 <hr style="margin-top: 5rem;">
+### PhD thesis on "Simulatable Physics-aware World Models" (3 years)
+🎬 Starting date: Fall 2026  
+
+In the context of [Paris School of AI (PR[AI]RIE-PSAI)](https://prairie-institute.fr/), we open a call for PhD thesis to learn simulatable world models, co-advised by [Raoul de Charette](https://rdecharette.github.io/) and [Fabio Pizzati](https://fabvio.github.io/).
+
+👉 Topic and application details are [in the PDF](/assets/pdf/inria_prairie_phd-world-models.pdf)  
+🕵️ Evaluation process on a rolling basis, apply asap.  
+🗓️ Application deadline: **May 17th 2026**  
+
+<hr style="margin-top: 5rem;">
+
 ### <span style="text-decoration: line-through;">PhD thesis on "Physics-Grounded Vision Foundation Models" (3 years)</span>
 🎬 Starting date: Fall 2025  
 
