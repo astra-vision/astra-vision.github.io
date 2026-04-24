@@ -18,7 +18,7 @@ nav_order: 5
 
 In the context of [Paris School of AI (PR[AI]RIE-PSAI)](https://prairie-institute.fr/), we open a call for PhD thesis to learn simulatable world models, co-advised by [Raoul de Charette](https://rdecharette.github.io/) and [Fabio Pizzati](https://fabvio.github.io/).
 
-👉 Topics and application details are in the <a href="/assets/pdf/inria_prairie_phd-world-models.pdf" target="_blank">PDF</a> below. 
+👉 Topics and application details are in the <a href="/assets/pdf/inria_prairie_phd-world-models.pdf" target="_blank">PDF</a> below.  
 🕵️ Evaluation process on a rolling basis, **apply asap**.  
 🌍 We welcome all applicants and commit to a transparent, open, merit-based reviewing process.  
 🗓️ Application deadline: **May 17th 2026**  
