@@ -14,7 +14,8 @@ group :jekyll_plugins do
     gem 'jekyll-target-blank'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'unicode_utils'
+    # Avoid eagerly loading the full Unicode database during Jekyll startup.
+    gem 'unicode_utils', require: false
     gem 'webrick'
 end
 group :other_plugins do

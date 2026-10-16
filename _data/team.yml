@@ -1,4 +1,11 @@
 -
+    lastname: "Tripathi"
+    firstname: Shivam
+    url: https://shivamt-tr.github.io
+    profilepic: shivam-tripathi.jpeg
+    position: PhD student
+
+-
     lastname: "Hayes"
     firstname: Seamie
     url: https://scholar.google.com/citations?user=3fffnjYAAAAJ
@@ -19,6 +26,9 @@
     url: https://sebo-the-tramp.github.io/
     profilepic: sebastian_cavada.png
     position: Visitor
+    alumni: true
+    alumni_date: "2026-10-01"
+    alumni_now: "PhD student at Lund University"
 
 -
     lastname: "Beche"
@@ -48,8 +58,8 @@
     position: "Researcher"
     url: https://ptrckprz.github.io/
     alumni: true
-    alumni_date: 2023-11-01
-    alumni_now: "CEO of <a href='https://www.kyutai.org' target='_blank'>Kyutai</a>"
+    alumni_date: "2023-11-01"
+    alumni_now: "researcher at DeepMind"
 
 -
     lastname: "Lopes"
@@ -58,7 +68,7 @@
     profilepic: ivan_lopes.jpeg
     position: PhD student
     alumni: true
-    alumni_date: 2025/10/13
+    alumni_date: "2025-10-13"
     alumni_now: scientist at <a href="https://www.disneyresearch.com">Disney Research</a>
 
 -
@@ -68,7 +78,7 @@
     profilepic: anhquan_cao.png
     position: PhD student
     alumni: true
-    alumni_date: 2025/01/01
+    alumni_date: "2025-01-01"
     alumni_now: research scientist at <a href="https://valeoai.github.io/" target="_blank">Valeo.ai</a>
 
 -
@@ -78,6 +88,8 @@
     profilepic: mohammad_fahes.jpeg
     position: PhD student
     note: "co-supervised with Tuan-Hung Vu, Andrei Bursuc (Valeo.ai) and Patrick Pérez (Kyutai).<br><b>Currrently, intern at Google DeepMind.</b>"
+    alumni: true
+    alumni_date: "2026-10-01"
 
 -
     lastname: "Boulch"
@@ -92,6 +104,9 @@
     url: https://sites.google.com/site/puygilles/
     profilepic: gilles_puy.jpg
     position: Researcher
+    alumni: true
+    alumni_date: "2026-07-01"
+    alumni_now: "researcher at Meta"
 
 -
     lastname: "Bursuc"
@@ -114,7 +129,8 @@
     profilepic: tankhiem_huynh.jpg
     position: Intern
     alumni: true
-    alumni_date: 2023/10/01
+    alumni_date: "2023-10-01"
+    alumni_now: "PhD student at Inria"
 
 -
     lastname: "Ben Salem"
@@ -123,7 +139,8 @@
     profilepic: souhaiel_bensalem.jpg
     position: Intern
     alumni: true
-    alumni_date: 2023/10/01
+    alumni_date: "2023-10-01"
+    alumni_now: "Research engineer at Parrot"
 
 -
     lastname: "Pizzati"
@@ -133,7 +150,7 @@
     position: PhD student
     alumni: true
     alumni_now: PostDoc at <a href="https://mbzuai.ac.ae/">MBZUAI</a>
-    alumni_date: 2023/03/01
+    alumni_date: "2023-03-01"
 
 -
     lastname: "Martyniuk"
@@ -148,6 +165,7 @@
     url: https://clement-w.github.io/
     profilepic: clement_weinreich.jpeg
     alumni: true
+    alumni_date: "2024-08-01"
     position: Intern
     alumni_now: PhD at CNRS, Institut Pasteur, Harvard
 
@@ -157,6 +175,7 @@
     url: https://www.linkedin.com/in/matteolmarengo/
     profilepic: matteo_marengo.jpeg
     alumni: true
+    alumni_date: "2024-08-01"
     position: Intern
     alumni_now: Research intern at <a href="https://hms.harvard.edu/" target="_blank">Harvard</a>
 
@@ -167,7 +186,7 @@
     position: Intern
     url: https://astra-vision.github.io/
     alumni: true
-    alumni_date: 2024-12-01
+    alumni_date: "2024-12-01"
     alumni_now: "PhD at Johns Hopkins University"
 
 -
@@ -177,8 +196,8 @@
     profilepic: benigmim_yasser.jpg
     position: PhD Visit
     alumni: true
-    alumni_date: 2025-03-01
-    alumni_now: "PhD at Polytechnique"
+    alumni_date: "2025-03-01"
+    alumni_now: "PostDoc at Inria TOTH"
 
 -
     lastname: "Xia"
@@ -187,6 +206,7 @@
     profilepic: weihao_xia.png
     position: PhD Visit
     alumni: true
+    alumni_date: "2024-06-01"
     alumni_now: "Research staff at University of Cambridge"
 
 -
@@ -205,4 +225,5 @@
     position: Intern
     bib_firstname: ["Jonathan", "J."]
     alumni: true
+    alumni_date: "2025-08-01"
     alumni_now: "at ETH Zurich"

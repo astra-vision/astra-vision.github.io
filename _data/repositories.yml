@@ -2,6 +2,9 @@ github_users:
   # - astra-vision
 
 github_repos:
+  - astra-vision/NewtPhys
+  - astra-vision/SSC-Priors
+  - astra-vision/EditSSC
   - astra-vision/LiDPM
   - yasserben/FLOSS
   - astra-vision/BRDFTransform

@@ -12,19 +12,21 @@ nav_order: 5
 
 <strong>Spoiler alert: We're always looking for talented candidates :thought_balloon:, feel free to contact Raoul de Charette beyond the scope of the opened positions. We strongly encourage women :woman: :muscle: to apply too.</strong>
 
+<b>Note 2026-10-01:</b> We're soon opening PhDs on World Models and World Action Models. Stay tuned. Also looking for talented PostDoc (open topics).
+
 <hr style="margin-top: 5rem;">
-### PhD thesis on "Simulatable Physics-aware World Models" (3 years)
+### ~~PhD thesis on "Simulatable Physics-aware World Models" (3 years)~~
 🎬 Starting date: Fall 2026  
 
 In the context of [Paris School of AI (PR[AI]RIE-PSAI)](https://prairie-institute.fr/), we open a call for PhD thesis to learn simulatable world models, co-advised by [Raoul de Charette](https://rdecharette.github.io/) and [Fabio Pizzati](https://fabvio.github.io/).
 
-👉 Topics and application details are in the <a href="/assets/pdf/inria_prairie_phd-world-models.pdf" target="_blank">PDF</a> below.  
+<!-- 👉 Topics and application details are in the <a href="/assets/pdf/inria_prairie_phd-world-models.pdf" target="_blank">PDF</a> below.   -->
 🕵️ Evaluation process on a rolling basis, **apply asap**.  
 🌍 We welcome all applicants and commit to a transparent, open, merit-based reviewing process.  
 🗓️ Application deadline: **May 17th 2026**  
 
-<a href="/assets/pdf/inria_prairie_phd-world-models.pdf" style="display: inline-block; padding: 6px 14px; background-color: rgb(38, 152, 186); color: rgb(255, 255, 255); text-decoration: none; border-radius: 6px; font-weight: 500; font-size: 14px; line-height: 1.4; transition: 0.2s; border: 1px solid transparent; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px; vertical-align: middle; transform: translateY(0px);" onmouseover="this.style.backgroundColor='#1d7a96'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='#2698ba'; this.style.transform='translateY(0)';" onmousedown="this.style.transform='translateY(0) scale(0.97)';" target="_blank">Click here for Topic details
-</a>
+<!-- <a href="/assets/pdf/inria_prairie_phd-world-models.pdf" style="display: inline-block; padding: 6px 14px; background-color: rgb(38, 152, 186); color: rgb(255, 255, 255); text-decoration: none; border-radius: 6px; font-weight: 500; font-size: 14px; line-height: 1.4; transition: 0.2s; border: 1px solid transparent; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px; vertical-align: middle; transform: translateY(0px);" onmouseover="this.style.backgroundColor='#1d7a96'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='#2698ba'; this.style.transform='translateY(0)';" onmousedown="this.style.transform='translateY(0) scale(0.97)';" target="_blank">Click here for Topic details -->
+<!-- </a> -->
 
 <hr style="margin-top: 5rem;">
 
