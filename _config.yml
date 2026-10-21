@@ -266,6 +266,7 @@ filtered_bibtex_keywords:
     award_name,
     bibtex_show,
     blog,
+    co_first_authors,
     code,
     google_scholar_id,
     html,

@@ -45,9 +45,10 @@
           </div>
           <div class="author">
           {%- assign author_array_size = entry.author_array.size -%}
+          {%- assign co_first_authors = entry.co_first_authors | default: '' | split: '|' -%}
 
           {%- assign author_array_limit = author_array_size -%}
-          {%- if site.max_author_limit and author_array_size > site.max_author_limit -%}
+          {%- if site.max_author_limit and author_array_size > site.max_author_limit and entry.co_first_authors == nil -%}
             {%- assign author_array_limit = site.max_author_limit -%}
           {%- endif -%}
 
@@ -136,6 +137,13 @@
                 {{author.first}} {{author_last_name}}
               {%- endif -%}
             {%- endif -%}
+            {%- assign author_full_name = author.first | append: ' ' | append: author_last_name -%}
+            {%- for co_first_author in co_first_authors -%}
+              {%- assign co_first_author_name = co_first_author | strip -%}
+              {%- if co_first_author_name == author_full_name -%}
+                <sup class="co-first-marker" title="Equal contribution (co-first author)" aria-label="Co-first author">*</sup>
+              {%- endif -%}
+            {%- endfor -%}
           {%- endfor -%}
           {%- assign more_authors = author_array_size | minus: author_array_limit -%}
           
@@ -171,6 +179,10 @@
           {%- endif -%}
 
           </div>
+
+          {%- if entry.co_first_authors != nil and entry.co_first_authors != '' -%}
+            <div class="author-contributions"><small><strong>* Equal contribution (co-first authors)</strong></small></div>
+          {%- endif -%}
 
           <!-- Journal/Book title and date -->
           {%- assign proceedings = "inproceedings, incollection" | split: ','%}
