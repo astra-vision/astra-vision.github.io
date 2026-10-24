@@ -15,6 +15,21 @@ nav_order: 5
 <b>Note 2026-10-01:</b> We're soon opening PhDs on World Models and World Action Models. Stay tuned. Also looking for talented PostDoc (open topics).
 
 <hr style="margin-top: 5rem;">
+### PhD thesis on "Multimodal physically-consistent world modeling" (3 years)
+🎬 Starting date: Spring 2027 or later
+
+In the context of [PEPR IA](https://www.pepr-ia.fr/) and [ELLIS](http://ellis.eu/), we open a call for PhD thesis co-advised by [Fabio Pizzati](https://fabvio.github.io/) and [Raoul de Charette](https://rdecharette.github.io/).
+
+👉 Topics and application details in the pdf details.  
+🕵️ Evaluation process on a rolling basis, **apply asap**.  
+🗓️ Deadlines: ⚠️ There are two options to apply: 
+* Option 1 (preferred): candidates are strongly
+encouraged to apply through the [ELLIS PhD Program](https://apply.ellis.eu/) – Deadline: **October 31st, 2026. Specifying Raoul de Charette as an ELLIS advisor**. *Priority will be given to candidates applying through this route.*  
+* Option 2: Direct application – **Deadline: November 20th, 2026**. Candidates can alternatively apply directly to Raoul de Charette and Fabio Pizzati (email in the pdf), including their CV, names and contact details of 2–3 referees, a short motivation letter (1 page max.), and copies of their latest transcripts and diplomas. Application deadline: **Nov 20th 2026**.
+
+<a href="/assets/pdf/2026-ELLIS__PhD_topic_2026.pdf" style="display: inline-block; padding: 6px 14px; background-color: rgb(38, 152, 186); color: rgb(255, 255, 255); text-decoration: none; border-radius: 6px; font-weight: 500; font-size: 14px; line-height: 1.4; transition: 0.2s; border: 1px solid transparent; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px; vertical-align: middle; transform: translateY(0px);" onmouseover="this.style.backgroundColor='#1d7a96'; this.style.transform='translateY(-1px)';" onmouseout="this.style.backgroundColor='#2698ba'; this.style.transform='translateY(0)';" onmousedown="this.style.transform='translateY(0) scale(0.97)';" target="_blank">Click here for Topic details</a>  
+
+<hr style="margin-top: 5rem;">
 ### ~~PhD thesis on "Simulatable Physics-aware World Models" (3 years)~~
 🎬 Starting date: Fall 2026  
 

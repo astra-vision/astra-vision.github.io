@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[KoalaGS](https://rdbch.github.io/koalags/) is accepted as spotlight @[NeurIPS 2026](https://neurips.cc/) 🎉
+[KoalaGS](https://rdbch.github.io/koalags/) is accepted as spotlight @[NeurIPS 2026](https://neurips.cc/) (0.9% acceptance rate) 🎉
